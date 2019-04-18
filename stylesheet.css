@@ -1,0 +1,64 @@
+.header-h1 h1 {
+	font-size: 24px;
+	text-align: left;
+	color: #444A55;
+	font-family: "Century Gothic W01 Bold";
+	margin-top:25px;
+	padding-bottom:10px;
+
+}
+
+
+.hero-image-outer {
+	background-image: url("https://jeanscentre-static.joggroup.net/sys-master/images/ha5/h46/9042018730014/headerbeeld-mascha.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://jeanscentre-static.joggroup.net/sys-master/images/ha5/h46/9042018730014/headerbeeld-mascha.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom:25px;
+}
+.hero-image h1 {
+	font-size: 40px;
+	text-align: center;
+	padding: 60px 20px 60px 20px;
+	color: #ffffff;
+	font-family: "Century Gothic W01 Bold";
+}
+@media (max-width: 991px) {
+	.yCmsContentSlot .content {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 768px) {
+	.hero-image h1 {
+		font-size: 4vw;
+		text-align: center;
+		padding: 40px 20px 40px 40px;
+		color: #ffffff;
+		font-family: "Century Gothic W01 Bold";
+	}
+
+	.header-h1 h1 {
+	font-size: 20px;
+	text-align: left;
+	color: #444A55;
+	font-family: "Century Gothic W01 Bold";
+	margin-top:25px;
+
+}
+}
+
+
+
+
